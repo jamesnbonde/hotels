@@ -6,34 +6,51 @@
 }
 
 body {
-  background: #f3f4f6;
-  color: #111;
+  background: #f4f4f4;
+  color: #333;
   line-height: 1.6;
 }
 
 header {
   text-align: center;
-  padding: 2rem;
-  background: #1f2937;
+  padding: 3rem;
+  background: #2d3748;
   color: white;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .subheading {
   font-size: 1.2rem;
-  margin-top: 0.5rem;
-  color: #d1d5db;
+  color: #e2e8f0;
 }
 
-.card-container {
+main {
+  padding: 2rem;
+}
+
+.intro, .about {
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #2d3748;
+}
+
+.hotel-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
-  padding: 2rem;
 }
 
 .hotel-card {
   background: white;
-  border-radius: 12px;
+  border-radius: 8px;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.2s ease;
@@ -53,9 +70,13 @@ header {
   padding: 1rem;
 }
 
-.card-content h2 {
-  font-size: 1.4rem;
+.card-content h3 {
+  font-size: 1.5rem;
   margin-bottom: 0.5rem;
+}
+
+.card-content p {
+  margin-bottom: 1rem;
 }
 
 .rating {
@@ -80,7 +101,7 @@ header {
 footer {
   text-align: center;
   padding: 1rem;
-  background: #1f2937;
+  background: #2d3748;
   color: #9ca3af;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
